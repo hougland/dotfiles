@@ -1,0 +1,6 @@
+# Elastic Search
+alias es-start="~/elasticsearch-1.7.2/bin/elasticsearch -d"
+alias es-stop="curl -X POST 'http://localhost:9200/_shutdown'"
+
+# thefuck
+eval "$(thefuck --alias)"

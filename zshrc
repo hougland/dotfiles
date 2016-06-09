@@ -1,4 +1,7 @@
-source ~/.bashrc
+source ~/dotfiles/bash_profile
+source ~/dotfiles/bashrc
+source ~/dotfiles/aliases
+source ~/.secret_info
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/rickyhougland/.oh-my-zsh
@@ -84,6 +87,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# thefuck
-eval "$(thefuck --alias)"
