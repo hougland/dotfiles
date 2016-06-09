@@ -87,3 +87,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Make directory and change into it.
+
+function mcd() {
+  mkdir -p "$1" && cd "$1";
+}
