@@ -10,6 +10,8 @@ notes.txt
 .idea
 **/config.properties
 
+.tags
+
 # Compiled source #
 ###################
 *.com
