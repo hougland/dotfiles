@@ -7,3 +7,6 @@ eval "$(thefuck --alias)"
 
 # ctags
 alias ctags="`brew --prefix`/bin/ctags"
+
+# correct emacs version
+alias emacs="/usr/local/Cellar/emacs/24.x/Emacs.app/Contents/MacOS/Emacs -nw"
